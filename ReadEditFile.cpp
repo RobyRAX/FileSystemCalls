@@ -12,7 +12,6 @@ int main()
 	ifstream file("daftar-nama.txt");
 	
 	string simpanLine[30];
-	string kosongan = " ";
 	int index = 0;
 	
 	if(file.is_open())
